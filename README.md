@@ -65,11 +65,14 @@ The repository includes the following Jupyter notebooks:
 
 Below are examples of the application's user interface:  
 
-📍 **Map Visualization**  
-<img src="images/interface2.PNG" alt="User Interface Example 1" width="600">
+📍 **Interface**  
+<img src="Images/Interface.PNG" alt="User Interface Example 1" width="600">
 
-📈 **Crime Trends and Statistics**  
-<img src="images/interface1.PNG" alt="User Interface Example 2" width="600">
+📈 **Map Visualization & Prediction Results**  
+<img src="Images/Selected_position.PNG" alt="User Interface Example 2" width="600">
+<img src="Images/Form.PNG" alt="User Interface Example 2" width="600">
+
+
 
 ---
 
