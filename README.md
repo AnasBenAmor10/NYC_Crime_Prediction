@@ -1,72 +1,88 @@
-<h1 align="center">
-  <br>
-  New York City Crimes Detection using Machine Learning .
-
-</h1>
+# 🗽 New York City Crimes Detection Using Machine Learning
 
 <div align="center">
   <h4>
-    <a href="#Overview">Overview</a> |
-    <a href="#dataset">Dataset</a> |
-    <a href="#Research">Notebooks</a> |
-    <a href="#technologies">Technologies</a> |
-    <a href="#User Interface">User Interface</a>|
-    <a href="#paper">Paper</a>
+    <a href="#overview">📋 Overview</a> |
+    <a href="#dataset">📊 Dataset</a> |
+    <a href="#notebooks">💻 Notebooks</a> |
+    <a href="#technologies">🛠️ Technologies</a> |
+    <a href="#user-interface">🖥️ User Interface</a> |
+    <a href="#paper">📄 Paper</a>
   </h4>
 </div>
 
-<br>
+---
 
-## Overview
+## 📋 Overview
 
- Predicting crime probabilities is crucial for enhancing public safety measures. Our machine learning-based web application leverages historical crime data in New York City to provide users with valuable insights into potential crime occurrences. By incorporating user-specific information, location, and time, the application assists individuals in making informed decisions and taking preventive actions. Whether planning a route, selecting a residential area, or simply staying aware of potential risks, our tool empowers users with a proactive approach to personal safety.
+Predicting crime probabilities is crucial for enhancing public safety. This machine learning-based web application utilizes historical crime data from New York City to provide valuable insights into potential crime occurrences. By integrating user-specific details such as location and time, the application empowers users to make informed decisions and take preventive actions. Whether planning a route, selecting a residential area, or staying aware of potential risks, this tool offers a proactive approach to personal safety.
 
-## Dataset
+---
 
-This work relies on [NYPD Complaint Data Historic Dataset]. This dataset includes all valid felony, misdemeanor, and violation crimes reported to the New York City Police Department (NYPD) from 2006 to 2021. The dataset contains 6901167 complaints and 35 columns including spatial and temporal information about crime occurrences along with their description and penal classification.
+## 📊 Dataset
 
-## Notebooks
+This project leverages the [NYPD Complaint Data Historic Dataset](https://data.cityofnewyork.us/). The dataset includes all valid felony, misdemeanor, and violation crimes reported to the New York City Police Department (NYPD) from 2006 to 2021. It contains:
 
-Different notebooks are provided for :
-- [Data cleaning & Exploratory Data Analysis](https://github.com/KaouechMohamed/NYC-Crimes-Application/blob/main/research/EDA.ipynb)
-- [data Preparation & Modeling](https://github.com/KaouechMohamed/NYC-Crimes-Application/blob/main/research/Modeling.ipynb)
+- **6,901,167 complaints**  
+- **35 columns** of data, including spatial and temporal information, crime descriptions, and penal classifications.
 
-## Technologies
+---
 
-This web application is developd using:
-- Streamlit
-- Folium
-- geopy
-- geopandas
-- shapely
-- Docker
+## 💻 Notebooks
 
-For data cleaning, EDA and modeling:
-- Pandas
-- seaborn
-- matplotlib
-- Scikit-learn
-- lightgbm
-- xgboost
-- catboost
+The repository includes the following Jupyter notebooks:
 
+- 🧹 [**Data Cleaning & Exploratory Data Analysis (EDA)**](research/EDA.ipynb)  
+  Perform initial data cleaning and explore key patterns in the dataset.
 
-## User Interface
+- 🤖 [**Data Preparation & Modeling**](research/Modeling.ipynb)  
+  Train and evaluate machine learning models for crime prediction.
 
+---
 
+## 🛠️ Technologies
 
-Here's an example of the interface:
-![User Interface Example1](images/interface2.PNG)
-![User Interface Example2](images/interface1.PNG)
+### 🌐 Web Application:
+- **Streamlit** - for building interactive dashboards  
+- **Folium** - for map visualizations  
+- **geopy** - for geocoding  
+- **geopandas** - for spatial data manipulation  
+- **shapely** - for geometric operations  
+- **Docker** - for containerization and deployment  
 
+### 📈 Data Cleaning, EDA, and Modeling:
+- **Pandas** - data manipulation  
+- **seaborn** - statistical visualization  
+- **matplotlib** - data plotting  
+- **Scikit-learn** - machine learning  
+- **LightGBM** - gradient boosting  
+- **XGBoost** - gradient boosting  
+- **CatBoost** - categorical boosting  
 
-## Paper
+---
 
-To document our work, we wrote a research paper that is included in the [repo](https://github.com/KaouechMohamed/NYC-Crimes-Application/blob/main/docs/paper.pdf).
+## 🖥️ User Interface
 
-## Credits
-This project was built by the team composed of:
+Below are examples of the application's user interface:  
 
-- Nour Mabrouk
-- Bacem Ahmed
-- Anas Ben Amor
+📍 **Map Visualization**  
+<img src="images/interface2.PNG" alt="User Interface Example 1" width="600">
+
+📈 **Crime Trends and Statistics**  
+<img src="images/interface1.PNG" alt="User Interface Example 2" width="600">
+
+---
+
+## 📄 Paper
+
+Our research findings are documented in a paper included in this repository. You can view the paper [here](docs/paper.pdf).
+
+---
+
+## 🙌 Credits
+
+This project was built by the team:
+
+- **Nour Mabrouk**  
+- **Bacem Ahmed**  
+- **Anas Ben Amor**
