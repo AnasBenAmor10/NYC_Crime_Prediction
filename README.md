@@ -50,13 +50,6 @@ For data cleaning, EDA and modeling:
 - xgboost
 - catboost
 
-To start the application you need to install Docker on your machine and launch the following commands:
-```sh
-docker build -t nyc-crimes-app .
-```
-```sh
-docker run -p 8501:8501 nyc-crimes-app
-```
 
 ## User Interface
 
@@ -74,6 +67,6 @@ To document our work, we wrote a research paper that is included in the [repo](h
 ## Credits
 This project was built by the team composed of:
 
-- Mohamed Kaouech
-- Angela Ben Frej
-- Tasnim Benhamed 
+- Nour Mabrouk
+- Bacem Ahmed
+- Anas Ben Amor
