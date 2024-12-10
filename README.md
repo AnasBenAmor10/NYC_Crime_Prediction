@@ -78,7 +78,7 @@ Below are examples of the application's user interface:
 
 ## 📄 Paper
 
-Our research findings are documented in a paper included in this repository. You can view the paper [here](docs/paper.pdf).
+Our research findings are documented in a paper included in this repository. You can view the paper [here](docs/NYC_Paper.pdf).
 
 ---
 
