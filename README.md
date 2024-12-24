@@ -6,6 +6,8 @@
     <a href="#dataset">📊 Dataset</a> |
     <a href="#notebooks">💻 Notebooks</a> |
     <a href="#technologies">🛠️ Technologies</a> |
+    <a href="#install-dependencies">🚀 Install Dependencies </a>|
+    <a href="#how-to-run">🚀 How to Run</a>|
     <a href="#user-interface">🖥️ User Interface</a> |
     <a href="#paper">📄 Paper</a>
   </h4>
@@ -60,6 +62,49 @@ The repository includes the following Jupyter notebooks:
 - **CatBoost** - categorical boosting  
 
 ---
+## Install Dependencies
+
+It is recommended to use a virtual environment to isolate dependencies. Follow these steps:
+
+1. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+2. To install the required Python libraries, run:
+```bash
+cd app
+pip install -r requirements.txt
+```
+
+---
+## 🚀 How to Run
+
+1. **Clone the Repository**:  
+   ```bash
+   git clone https://github.com/your-repo/nyc-crime-detection.git
+   cd NYC_Crime_Prediction
+   ```
+
+2. **Start the Application**:  
+   Use Streamlit to launch the application locally:
+   ```bash
+   cd app
+   streamlit run main.py
+   ```
+
+3. **Access the Application**:  
+   Open your web browser and navigate to:  
+   ```
+   http://localhost:8501
+   ```
+
+4. **Interact with the Tool**:  
+   - Select a location on the map.
+   - Provide your details in the form.
+   - View the crime predictions.
+
 
 ## 🖥️ User Interface
 
@@ -78,7 +123,7 @@ Below are examples of the application's user interface:
 
 ## 📄 Paper
 
-Our research findings are documented in a paper included in this repository. You can view the paper [here](docs/paper.pdf).
+Our research findings are documented in a paper included in this repository. You can view the paper [here](docs/NYC_Paper.pdf).
 
 ---
 
@@ -88,4 +133,4 @@ This project was built by the team:
 
 - **Nour Mabrouk**  
 - **Bacem Ahmed**  
-- **Anas Ben Amor**
+- **Anas Ben Amor** 
