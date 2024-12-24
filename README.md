@@ -1,4 +1,4 @@
-# 🗽 New York City Crimes Detection Using Machine Learning
+# 🗽 **New York City Crimes Detection Using Machine Learning**
 
 <div align="center">
   <h4>
@@ -6,33 +6,39 @@
     <a href="#dataset">📊 Dataset</a> |
     <a href="#notebooks">💻 Notebooks</a> |
     <a href="#technologies">🛠️ Technologies</a> |
-    <a href="#install-dependencies">🚀 Install Dependencies </a>|
-    <a href="#how-to-run">🚀 How to Run</a>|
+    <a href="#install-dependencies">🚀 Install Dependencies</a> |
+    <a href="#how-to-run">🚀 How to Run</a> |
     <a href="#user-interface">🖥️ User Interface</a> |
-    <a href="#paper">📄 Paper</a>
+    <a href="#paper">📄 Paper</a> |
+    <a href="#credits">🙌 Credits</a>
   </h4>
 </div>
 
 ---
 
-## 📋 Overview
+## 📋 **Overview**
 
 Predicting crime probabilities is crucial for enhancing public safety. This machine learning-based web application utilizes historical crime data from New York City to provide valuable insights into potential crime occurrences. By integrating user-specific details such as location and time, the application empowers users to make informed decisions and take preventive actions. Whether planning a route, selecting a residential area, or staying aware of potential risks, this tool offers a proactive approach to personal safety.
 
 ---
 
-## 📊 Dataset
+## 📊 **Dataset**
 
-This project leverages the [NYPD Complaint Data Historic Dataset](https://data.cityofnewyork.us/). The dataset includes all valid felony, misdemeanor, and violation crimes reported to the New York City Police Department (NYPD) from 2006 to 2021. It contains:
+We utilize the **[NYPD Complaint Data Historic Dataset](https://data.cityofnewyork.us/)**, which includes comprehensive details about reported crimes in NYC.
 
-- **6,901,167 complaints**  
-- **35 columns** of data, including spatial and temporal information, crime descriptions, and penal classifications.
+### Key Features:
+
+- **6,901,167 complaints** (from 2006 to 2021)
+- **35 attributes**, including:
+  - Temporal data (date, time)
+  - Spatial data (latitude, longitude)
+  - Crime descriptions (type, classification)
 
 ---
 
-## 💻 Notebooks
+## 💻 **Notebooks**
 
-The repository includes the following Jupyter notebooks:
+### 📂 Repository Includes:
 
 - 🧹 [**Data Cleaning & Exploratory Data Analysis (EDA)**](research/EDA.ipynb)  
   Perform initial data cleaning and explore key patterns in the dataset.
@@ -42,95 +48,107 @@ The repository includes the following Jupyter notebooks:
 
 ---
 
-## 🛠️ Technologies
+## 🛠️ **Technologies**
 
-### 🌐 Web Application:
-- **Streamlit** - for building interactive dashboards  
-- **Folium** - for map visualizations  
-- **geopy** - for geocoding  
-- **geopandas** - for spatial data manipulation  
-- **shapely** - for geometric operations  
-- **Docker** - for containerization and deployment  
+### 🌐 **Web Application**
 
-### 📈 Data Cleaning, EDA, and Modeling:
-- **Pandas** - data manipulation  
-- **seaborn** - statistical visualization  
-- **matplotlib** - data plotting  
-- **Scikit-learn** - machine learning  
-- **LightGBM** - gradient boosting  
-- **XGBoost** - gradient boosting  
-- **CatBoost** - categorical boosting  
+- **Streamlit**: Dashboard development
+- **Folium**: Interactive maps
+- **geopy**: Geocoding
+- **geopandas**: Spatial data manipulation
+- **shapely**: Geometric operations
+- **Docker**: Containerization
 
----
-## Install Dependencies
+### 📈 **Data Processing**
 
-It is recommended to use a virtual environment to isolate dependencies. Follow these steps:
-
-1. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate
-   ```
-
-2. To install the required Python libraries, run:
-  ```bash
-  cd app
-  pip install -r requirements.txt
-  ```
-
----
-## 🚀 How to Run
-
-1. **Clone the Repository**:  
-   ```bash
-   git clone https://github.com/your-repo/nyc-crime-detection.git
-   cd NYC_Crime_Prediction
-   ```
-
-2. **Start the Application**:  
-   Use Streamlit to launch the application locally:
-   ```bash
-   cd app
-   streamlit run main.py
-   ```
-
-3. **Access the Application**:  
-   Open your web browser and navigate to:  
-   ```
-   http://localhost:8501
-   ```
-
-4. **Interact with the Tool**:  
-   - Select a location on the map.
-   - Provide your details in the form.
-   - View the crime predictions.
-
-
-## 🖥️ User Interface
-
-Below are examples of the application's user interface:  
-
-📍 **Interface**  
-<img src="Images/Interface.PNG" alt="User Interface Example 1" width="600">
-
-📈 **Map Visualization & Prediction Results**  
-<img src="Images/Selected_position.PNG" alt="User Interface Example 2" width="600">
-<img src="Images/Form.PNG" alt="User Interface Example 2" width="600">
-
-
+- **Pandas**: Data manipulation
+- **Seaborn** & **Matplotlib**: Visualization
+- **Scikit-learn**: Machine learning framework
+- **LightGBM**, **XGBoost**, **CatBoost**: Advanced boosting algorithms
 
 ---
 
-## 📄 Paper
+## 🚀 **Install Dependencies**
 
-Our research findings are documented in a paper included in this repository. You can view the paper [here](docs/NYC_Paper.pdf).
+### Step 1: Create a Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate # On macOS/Linux
+venv\Scripts\activate    # On Windows
+```
+
+### Step 2: Install Required Libraries
+
+```bash
+cd app
+pip install -r requirements.txt
+```
 
 ---
 
-## 🙌 Credits
+## 🚀 **How to Run**
 
-This project was built by the team:
+### Step 1: Clone the Repository
 
-- **Nour Mabrouk**  
-- **Bacem Ahmed**  
-- **Anas Ben Amor** 
+```bash
+git clone https://github.com/your-repo/nyc-crime-detection.git
+cd NYC_Crime_Prediction
+```
+
+### Step 2: Start the Application
+
+```bash
+cd app
+streamlit run main.py
+```
+
+### Step 3: Access the Application
+
+Open your browser at:
+
+```
+http://localhost:8501
+```
+
+---
+
+## 🖥️ **User Interface**
+
+### 📍 **Interactive Dashboard**
+
+An overview of the main application layout and features:
+
+<img src="Images/Interface.PNG" alt="Dashboard Interface" width="800">
+
+---
+
+### 📈 **Map Selection & Predictions**
+
+Select your location on an interactive map and receive crime predictions:
+
+<img src="Images/Selected_position.PNG" alt="Map and Prediction Results" width="800">
+
+---
+
+### 📝 **Form & Detailed Results**
+
+Fill in your details and view crime probabilities with detailed insights:
+
+<img src="Images/Form.PNG" alt="Form Example" width="800">
+
+---
+
+## 📄 **Paper**
+
+Explore our detailed research findings in the accompanying [paper](docs/NYC_Paper.pdf).
+
+---
+
+## 🙌 **Credits**
+
+This project was developed by:
+
+- **Nour Mabrouk**
+- **Bacem Ahmed**
+- **Anas Ben Amor**
