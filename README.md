@@ -73,10 +73,10 @@ It is recommended to use a virtual environment to isolate dependencies. Follow t
    ```
 
 2. To install the required Python libraries, run:
-```bash
-cd app
-pip install -r requirements.txt
-```
+  ```bash
+  cd app
+  pip install -r requirements.txt
+  ```
 
 ---
 ## 🚀 How to Run
